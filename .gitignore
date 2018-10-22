@@ -1,0 +1,8 @@
+geckodriver geckodriver.log
+geckodriver geckodriver.log
+geckodriver
+geckodriver.log
+chromedriver
+.DS_Store
+env/bin env/include env/lib env/pip-selfcheck.json
+env
