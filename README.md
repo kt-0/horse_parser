@@ -1,6 +1,6 @@
 ## Setting up the folder, git repo, and virtualenv from terminal:
 
-### navigate to where ever you'd like the repo to live Documents, Desktop, etc
+### navigate to where ever you'd like the repo to live -- /Documents, /Desktop, etc (example assumes /Desktop )
 ```
 $ cd ~/Desktop
 ```
