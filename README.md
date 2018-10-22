@@ -35,3 +35,5 @@ pip install selenium
 ```
 python
 ```
+
+Open page_scraper.py in any editor(i use Atom) and copy/paste lines one at a time into the python shell -- this is necessary until certain issues are resolved (captchas)
