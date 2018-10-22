@@ -22,5 +22,5 @@ pip install selenium
 ```
 # starting the python shell:
 ```
-python #python shell
+python
 ```
