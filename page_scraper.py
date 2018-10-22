@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 #chrome_options.add_argument("--headless")
 #chrome_options.binary_location = "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary"
 #driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"),   chrome_options=chrome_options)
-driver = webdriver.Firefox(executable_path=os.path.abspath("geckodriver")) #for firefox
+#driver = webdriver.Firefox(executable_path=os.path.abspath("geckodriver")) #for firefox
 driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver")) #for chrome
 base_url = "http://www.equibase.com/"
 driver.get(base_url)
@@ -26,7 +26,7 @@ if search_box.is_displayed():
   charts = driver.find_elements_by_class_name("chart")
   charts[0].click()
   driver.switch_to_window(driver.window_handles[1])
-  #download_button = driver.find_element_by_id("download")
+  download_button = driver.find_element_by_id("download")
 
 pdfFileObj = open('amer_pharaoh.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)

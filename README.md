@@ -8,8 +8,16 @@ virtualenv -p python3 env
 ```
 # download chromedriver: [chromedriver download](http://chromedriver.chromium.org/downloads)
 
-```mv ../Downloads/chromedriver /Desktop/selenium_test/
-source env/bin/activate #activating the virtualenv
-pip install selenium
+```
+mv ../Downloads/chromedriver /Desktop/selenium_test/
+```
+# activating the virtualenv
+```source env/bin/activate
+```
+# installing selenium in the virtualenv
+```pip install selenium
+```
+# starting the python shell
+```
 python #python shell
 ```
