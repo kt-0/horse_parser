@@ -1,37 +1,37 @@
-# Setting up the folder, git repo, and virtualenv from terminal:
+## Setting up the folder, git repo, and virtualenv from terminal:
 
-## navigate to where ever you'd like the repo to live Documents, Desktop, etc
+### navigate to where ever you'd like the repo to live Documents, Desktop, etc
 ```
 cd ~/Desktop
 ```
 
-## clone the repo:
+### clone the repo:
 ```
 git clone https://github.com/kt-0/horse_parser
 ```
 
-## set up the virtual env:
+### set up the virtual env:
 ```
 pip install virtualenv
 pip3 install virtualenv
 virtualenv -p python3 env
 ```
 
-# download chromedriver and move it to our repo folder:
+### download chromedriver and move it to our repo folder:
 [chromedriver download link](http://chromedriver.chromium.org/downloads)
 
 ```
 mv ../Downloads/chromedriver /Desktop/horse_parser/
 ```
-# activating the virtualenv:
+### activating the virtualenv:
 ```
 source env/bin/activate
 ```
-# installing selenium in the virtualenv:
+### installing selenium in the virtualenv:
 ```
 pip install selenium
 ```
-# starting the python shell:
+### starting the python shell:
 ```
 python
 ```
