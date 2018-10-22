@@ -29,11 +29,11 @@ $ source env/bin/activate
 ```
 ### installing selenium in the virtualenv:
 ```
-$ pip install selenium
+$ (env) pip install selenium PyPDF2
 ```
 ### starting the python shell:
 ```
-$ python
+$ (env) python
 ```
 
 #### Open `page_scraper.py` in any editor(i use Atom) and copy/paste lines one at a time into the python shell -- this is necessary until certain issues are resolved (captchas)
