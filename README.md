@@ -12,7 +12,6 @@ $ git clone https://github.com/kt-0/horse_parser
 
 ### set up the virtual env:
 ```
-$ pip install virtualenv
 $ pip3 install virtualenv
 $ virtualenv -p python3 env
 ```
